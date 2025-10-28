@@ -24,6 +24,7 @@ void BubbleSortByIdPtr(Student** students, int count){
             if (students[i]->id > students[i+1]->id){
                 swopPtr(students[i], students[i+1]);
             }
+            sorted = 0;
         }
     }
 }
