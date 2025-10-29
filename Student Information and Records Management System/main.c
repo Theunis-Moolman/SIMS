@@ -67,6 +67,10 @@ int main()
                 break;
             case SAVE_INFO:
                 saveAllStudentInfo(classTree.startPtr);
+                FILE* textFile = fopen("studentData.txt", "w");
+                if (textFile != NULL){
+                    saveReadableFile(textFile, classTree.startPtr);
+                }
                 break;
             }
 

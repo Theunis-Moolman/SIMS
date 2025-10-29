@@ -1,0 +1,29 @@
+Class name: Electrical
+Class ID: 5
+Pieter Brink: 
+Student ID: 8
+		                          Engineering Mathematics: N/A
+		                              Applied Mathematics: N/A
+		                                Electrotechniques: N/A
+		                             Computer programming: N/A
+		                           Electronic Engineering: N/A
+		                            Strength Of Materials: N/A
+Thinus Moolman: 
+Student ID: 85
+		                          Engineering Mathematics: N/A
+		                              Applied Mathematics: N/A
+		                                Electrotechniques: N/A
+		                             Computer programming: N/A
+		                           Electronic Engineering: N/A
+		                            Strength Of Materials: N/A
+Class name: Civil
+Class ID: 78
+Phillip Vetrol: 
+Student ID: 3
+		                          Engineering Mathematics: 78.00
+		                              Applied Mathematics: 90.00
+		                                Electrotechniques: 75.00
+		                             Computer programming: 61.00
+		                           Electronic Engineering: 78.00
+		                            Strength Of Materials: 85.00
+GPA: 77.83

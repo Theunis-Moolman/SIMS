@@ -56,6 +56,31 @@ void saveAllStudentInfo(ClassNode* startPtr){
     }
 }
 
+void saveReadableFile(FILE* stream, ClassNode* startPtr){
+    if (startPtr != NULL){
+        saveReadableFile(stream, startPtr->leftPtr);
+        fprintf(stream, "Class name: %s\n", startPtr->name);
+        fprintf(stream, "Class ID: %d\n", startPtr->id);
+        StudentNode* currentPtr = startPtr->students.frontPtr;
+        while (currentPtr != NULL){
+            fprintf(stream, "%s %s: \n", currentPtr->data.name, currentPtr->data.surname);
+            fprintf(stream, "Student ID: %d\n", currentPtr->data.id);
+            for (int j = 0; j < currentPtr->data.grades.numSubjects; j++){
+                fprintf(stream, "\t\t%49s: ", currentPtr->data.grades.subjects[j]);
+                if (currentPtr->data.grades.marks[j] == -1){
+                    fprintf(stream, "N/A\n");
+                } else {
+                    fprintf(stream, "%2.2f\n", currentPtr->data.grades.marks[j]);
+            }
+            }if (currentPtr->data.gpa != -1){
+                fprintf(stream, "GPA: %3.2f\n", currentPtr->data.gpa);
+            }
+            currentPtr = currentPtr->nextPtr;
+        }
+        saveReadableFile(stream, startPtr->rightPtr);
+    }
+}
+
 List loadClassFile(char filename[50], char className[]){
     FILE* fPtr = fopen(filename, "rb");
     List classList;

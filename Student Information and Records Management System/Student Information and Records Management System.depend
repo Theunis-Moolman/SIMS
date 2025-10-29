@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1761677198 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\io.c
+1761727655 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\io.c
 	"io.h"
 	"student.h"
 	"class.h"
 	"utils.h"
 	<dirent.h>
 
-1761676505 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\student.c
+1761678157 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\student.c
 	"student.h"
 	"algorithms.h"
 
@@ -39,13 +39,13 @@
 1761584382 c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\algorithms.h
 	"student.h"
 
-1761591138 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\algorithms.c
+1761680202 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\algorithms.c
 	"algorithms.h"
 
 1761647383 c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\class.h
 	"student.h"
 
-1761677133 c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\io.h
+1761727534 c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\io.h
 	"class.h"
 	<stdio.h>
 

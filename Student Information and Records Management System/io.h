@@ -10,6 +10,7 @@
 void createNewBlankTemplate(char filename[], char className[]);
 void saveLinkedList(int classID, List list, char className[]);
 void saveAllStudentInfo(ClassNode* startPtr);
+void saveReadableFile(FILE* stream, ClassNode* startPtr);
 List loadClassFile(char filename[50], char className[]);
 ClassNode* loadAllStudentData(ClassNode* startPtr);
 
