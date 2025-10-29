@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1761727655 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\io.c
+1761729852 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\io.c
 	"io.h"
 	"student.h"
 	"class.h"
 	"utils.h"
 	<dirent.h>
 
-1761678157 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\student.c
+1761729852 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\student.c
 	"student.h"
 	"algorithms.h"
 
@@ -16,7 +16,7 @@
 
 1761565147 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\student.h
 
-1761675348 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\main.c
+1761729803 source:c:\users\user\onedrive - stellenbosch university\semester 2\computer programming 143\a2 project for revision\student information and records management system\main.c
 	<stdio.h>
 	<stdlib.h>
 	"student.h"

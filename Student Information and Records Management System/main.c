@@ -71,6 +71,7 @@ int main()
                 if (textFile != NULL){
                     saveReadableFile(textFile, classTree.startPtr);
                 }
+                fclose(textFile);
                 break;
             }
 
